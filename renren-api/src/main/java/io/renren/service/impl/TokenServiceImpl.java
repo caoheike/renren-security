@@ -43,11 +43,11 @@ public class TokenServiceImpl extends ServiceImpl<TokenDao, TokenEntity> impleme
 
 		//保存或更新用户token
 		TokenEntity tokenEntity = new TokenEntity();
-		tokenEntity.setUserId(userId);
-		tokenEntity.setToken(token);
-		tokenEntity.setUpdateTime(now);
-		tokenEntity.setExpireTime(expireTime);
-		this.saveOrUpdate(tokenEntity);
+//		tokenEntity.setUserId(userId);
+//		tokenEntity.setToken(token);
+//		tokenEntity.setUpdateTime(now);
+//		tokenEntity.setExpireTime(expireTime);
+//		this.saveOrUpdate(tokenEntity);
 
 		return tokenEntity;
 	}
@@ -57,9 +57,9 @@ public class TokenServiceImpl extends ServiceImpl<TokenDao, TokenEntity> impleme
 		Date now = new Date();
 
 		TokenEntity tokenEntity = new TokenEntity();
-		tokenEntity.setUserId(userId);
-		tokenEntity.setUpdateTime(now);
-		tokenEntity.setExpireTime(now);
+//		tokenEntity.setUserId(userId);
+//		tokenEntity.setUpdateTime(now);
+//		tokenEntity.setExpireTime(now);
 		this.saveOrUpdate(tokenEntity);
 	}
 

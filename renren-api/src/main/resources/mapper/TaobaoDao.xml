@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.dao.TaobaoDao">
+    <!-- 根据key，查询value -->
+<!--    <insert id="addLog" parameterType="java.util.Map" >-->
+<!--		insert  into  PC_LOG (userStatus,userNum,type) values(#{userStatus},#{custId},#{type})-->
+<!--	</insert>-->
+
+<!--     <select id="getStatus" parameterType="java.util.Map" resultType="java.lang.Integer">-->
+
+<!--       select count(*) from PC_LOG where userNum=#{custId} and type=#{type}-->
+
+<!--     </select>-->
+<!--    <update id="editStatus" parameterType="java.util.Map"  >-->
+
+<!--        update PC_LOG set userStatus=#{userStatus} where userNum=#{custId} and type=#{type}-->
+
+
+<!--    </update>-->
+
+<!--    &lt;!&ndash;征信获取ip&ndash;&gt;-->
+
+<!--    <select id="getCredIp" parameterType="java.lang.String"  resultType="java.util.Map" >-->
+
+<!--      select * from cred_ip  where flg=#{flg}-->
+
+
+<!--    </select>-->
+<!--    &lt;!&ndash;锁定ip&ndash;&gt;-->
+
+<!--    <update id="lockIp" parameterType="java.lang.String">-->
+
+<!--        update  cred_ip set flg='false' where ip=#{ip}-->
+
+
+<!--    </update>-->
+
+
+
+
+</mapper>
